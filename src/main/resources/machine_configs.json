@@ -1,0 +1,79 @@
+[
+  {
+    "id": "5f54dd217546020001758b7b",
+    "name": "101/14 Guide roll felt",
+    "createdAt": "2020-09-06T12:59:13.055Z",
+    "technicalSpecs": {
+      "gearboxCfg": "None",
+      "installation": "Rigid",
+      "specificType": "Roll",
+      "type": "Other",
+      "vfd": true,
+      "an": "101/14 Guide roll felt",
+      "driveCfg": "Coupling Driven",
+      "motorType": "Electrical",
+      "cfg": "Horizontal",
+      "design": "Centerhung"
+    },
+    "components": [
+      {
+        "id": "5f54dd217546020001758b7c",
+        "type": "motor",
+        "technicalSpecs": {
+          "hp": 50,
+          "hz": "50",
+          "rpm": 1500
+        },
+        "numBearings": 2,
+        "bearings": [
+          {
+            "name": "",
+            "description": "NDE",
+            "extendedDesc": "non-driving end"
+          },
+          {
+            "name": "",
+            "description": "DE",
+            "extendedDesc": "driving end"
+          }
+        ],
+        "powerDrives": {
+          "driving": [
+            {
+              "componentId": "5f54dd217546020001758b7d",
+              "driveType": "Coupling"
+            }
+          ]
+        }
+      },
+      {
+        "id": "5f54dd217546020001758b7d",
+        "type": "driven_equipment",
+        "technicalSpecs": {},
+        "numBearings": 2,
+        "bearings": [
+          {
+            "name": "",
+            "description": "DE",
+            "extendedDesc": "driving end"
+          },
+          {
+            "name": "",
+            "description": "NDE",
+            "extendedDesc": "non-driving end"
+          }
+        ],
+        "powerDrives": {
+          "drivenBy": [
+            {
+              "componentId": "5f54dd217546020001758b7c",
+              "driveType": "Coupling"
+            }
+          ]
+        }
+      }
+    ],
+    "updatedAt": "2024-03-17T12:07:09.090Z",
+    "updatedBy": "63da798fac2b0afe0aba2f8c"
+  }
+]
